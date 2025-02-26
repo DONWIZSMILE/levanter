@@ -1,12 +1,12 @@
 {
-  "name": "levanter",
+  "name": "DONWIZ",
   "version": "3.6.7",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start . --attach --name levanter",
-    "docker": "pm2-runtime start . --name levanter",
-    "stop": "pm2 stop levanter",
+    "start": "pm2 start . --attach --name DONWIZ",
+    "docker": "pm2-runtime start . --name DONWIZ",
+    "stop": "pm2 stop DONWIZ",
     "postinstall": "node -e \"try { require('sharp') } catch (e) { process.exit(1); }\" || yarn add --ignore-engines sharp@0.33.5"
   },
   "author": "",
